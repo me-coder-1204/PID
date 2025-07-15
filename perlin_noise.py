@@ -1,3 +1,8 @@
+'''
+
+This code belongs to alexandr-gnrk(https://github.com/alexandr-gnrk/perlin-1d)
+
+'''
 import random
 import math
 from enum import Enum
