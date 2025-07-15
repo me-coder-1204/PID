@@ -1,0 +1,29 @@
+#modify the values here to change parameters in the code
+
+[terrainConfig]
+
+amplitude = 1
+frequency = 2
+octaves = 3
+avgTerrain = 2
+hasDrops = true #should there be the sudden drops in terrain as mentioned in task
+
+[geneticConfig]
+
+populationSize = 150
+lowerBound = -5
+upperBound = 10
+generations = 20
+mutationRate = 0.5
+
+
+[PIDConfig]
+#Only for PID.py
+Kp = 10
+Kd = 0.10711112931380898
+Ki = 5.219131502961188
+
+[simConfig]
+
+dt = 0.01
+timeFrame = 5
